@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice on form</title>
+    <style>
+        fieldset{
+            width: 50%;
+            border-radius: 10px;
+            border: 2px solid #1f0202;
+            background-image: url(istockphoto-998926190-612x612.jpg);
+            background-size: cover;
+           /* background-repeat: no-repeat;
+            background-attachment: fixed;*/
+        }
+        legend{
+            text-align: center;
+        }
+        form{
+            margin-left:450px;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+       <fieldset>
+         <legend>STUDENT REGISTRATION FORM</legend>
+         <p>
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname">
+        </p>
+         <p>
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname">
+         </p>
+         <p>
+            <label for="pword">Password</label>
+            <input type="pass" name="pword" id="pword">
+         </p>
+         <p>
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dob" id="dob">
+         </p>
+         <p>
+            <label for="afile">Choose a File</label>
+            <input type="file" name="afile" id="afile">
+         </p>
+         <p>
+            <label>Choose your gender: </label>
+            <label for="gender">Male</label>
+            <input type="radio" name="gender" value="male">
+            <label for="gender">Female</label>
+            <input type="radio" name="gender" value="female">
+         </p>
+         <p>
+            <label>Choose your subjects: </label>
+            <label for="subjects">Mathematics</label>
+            <input type="checkbox" name="subjects" id="subjects">
+            <label for="subjects">Economics</label>
+            <input type="checkbox" name="subjects" id="subjects">
+            <label for="subjects">Physica</label>
+            <input type="checkbox" name="subjects" id="subjects">
+            <label for="subjects">Use of English</label>
+            <input type="checkbox" name="subjects" id="subjects">
+            <label for="subjects">CRS</label>
+            <input type="checkbox" name="subjects" id="subjects">
+         </p>
+         <p>
+            <label>Choose your States</label>
+            <select name="state" id="state">
+               <option value="Ondo">Ondo</option>
+               <option value="Ekiti">Ekiti</option>
+               <option value="Ogun">Ogun</option>
+               <option value="Imo">Imo</option>
+               <option value="Delta">Delta</option>
+               <option value="Anambra">Anambra</option>
+            </select>
+         </p>
+         <p>
+            <label>Food Menu</label>
+            <select name="food" id="food">
+               <option value="Rice">Rice</option>
+               <option value="Yam">Yam</option>
+               <option value="Beans">Beans</option>
+               <option value="Potato">Potato</option>
+            </select>
+         </p>
+         <p>
+            <label for="s-message">Short Description</label>
+            <textarea name="s-message" id="s-message" cols="30" rows="10"></textarea>
+         </p>
+       <p>
+         <input type="submit" value="send">
+       </p>
+       </fieldset>
+    </form>
+</body>
+</html>
